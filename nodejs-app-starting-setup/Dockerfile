@@ -32,7 +32,7 @@ RUN npm install
 # Specify the port (Expose from the container)
 # This is only for documentation purposes ('EXPOSE 80' is optional yet a best practice)
 # ATTENTION: The most important part is running the docker container exposing the ports (Example:- docker run -p 80:80 .....)
-#             '80:80' - First '80' means which local port, Second '80' means the internal port
+#            '80:80' - First '80' means which local port, Second '80' means the internal port
 EXPOSE 80
 
 # Start the server when the container is starting
